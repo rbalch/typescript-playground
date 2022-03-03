@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "declaration": true, // spit out .d.ts files describing what casting was done
+        // "noImplicitAny": true, // never implicitly convert a type to any
+        // "strictNullChecks": true, // do not allow null or undefined to be assinged to other types
+        // "noImplicitReturns": true // force all functions->paths to use a return
+        // "suppressExcessPropertyErrors": true // don't complain when an object has more stuff than the type
+        // "noUncheckedIndexedAccess": true // make sure dynamic vars are set before reading
+        "module": "CommonJS" // allow import statement
+    }
+}
